@@ -14,6 +14,6 @@ Type .gf followed by some characters to search for one of your role
 
 There are 3 Environment Variables : 
 
-apikey : search for your personnal API v3 Key in Glassfrog
-personid : search for your id in Glassfrog
-cache : in second, set the cache duration for all of your role
+- apikey : search for your personnal API v3 Key in Glassfrog
+- personid : search for your id in Glassfrog
+- cache : in second, set the cache duration for all of your role
