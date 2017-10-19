@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>category</key>
+	<string>Internet</string>
+	<key>connections</key>
+	<dict>
+		<key>AAF5A794-683A-4E54-A1A2-5807761AA430</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>77C110DB-A57C-4E4D-8351-EB28095CB96D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Imrane Dessai</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Glassfrog</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>.gf</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading...</string>
+				<key>script</key>
+				<string>python glassfrog.py "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Roles I have</string>
+				<key>title</key>
+				<string>Show your role in Glassfrog</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>AAF5A794-683A-4E54-A1A2-5807761AA430</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://fr.glassfrog.com/roles/{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>77C110DB-A57C-4E4D-8351-EB28095CB96D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>This simple workflow lets you browse through your own role in glassfrog
+
+Type .gf to list all your roles
+
+Type .gf followed by some characters to search for one of your role
+
+There are 3 Environment Variables : 
+
+apikey : search for your personnal API v3 Key in Glassfrog
+personid : search for your id in Glassfrog
+cache : in second, set the cache duration for all of your role</string>
+	<key>uidata</key>
+	<dict>
+		<key>77C110DB-A57C-4E4D-8351-EB28095CB96D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>370</integer>
+			<key>ypos</key>
+			<integer>80</integer>
+		</dict>
+		<key>AAF5A794-683A-4E54-A1A2-5807761AA430</key>
+		<dict>
+			<key>xpos</key>
+			<integer>130</integer>
+			<key>ypos</key>
+			<integer>80</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>apikey</key>
+		<string>ddc68cd1bbcd7bda853d93b55fbc035b610126f3</string>
+		<key>cache</key>
+		<string>210600</string>
+		<key>personid</key>
+		<string>40264</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>personid</string>
+		<string>apikey</string>
+	</array>
+	<key>version</key>
+	<string>1.0</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
